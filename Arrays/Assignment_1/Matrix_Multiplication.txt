@@ -1,0 +1,14 @@
+ALGORITHM:
+matrixMultiply(A, B):
+Assume dimension of A is (m x n), dimension of B is (p x q)
+Begin
+   if n is not same as p, then exit
+   otherwise define C matrix as (m x q)
+   for i in range 0 to m - 1, do
+      for j in range 0 to q – 1, do
+         for k in range 0 to p, do
+            C[i, j] = C[i, j] + (A[i, k] * A[k, j])
+         done
+      done
+   done
+End
