@@ -1,0 +1,22 @@
+PSEUDOCODE:
+
+Step 1: Start
+
+Step 2: Declare matrix a[m][n] of order mxn
+
+Step 3: Read matrix a[m][n] from User
+
+Step 4: Declare matrix b[m][n] of order mxn
+                  
+Step 5: // Transposing the Matrix
+            
+        5.1: Declare variables i, j
+        5.2: Set i=0, j=0
+        5.3: Repeat until i < n
+              5.3.1: Repeat until j < m
+                         5.3.1.1: b[i][j] = a[j][i]
+                         5.3.1.2: j=j+1 // Increment j by 1
+              5.3.2: i=i+1 // Increment i by 1
+        5.4: Print matrix b 
+        // The matrix b is the transpose of a and can be printed now
+Step 6: Stop
